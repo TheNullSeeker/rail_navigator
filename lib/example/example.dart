@@ -94,4 +94,3 @@ class _AdvancedExampleState extends State<AdvancedExample> {
     );
   }
 }
-
