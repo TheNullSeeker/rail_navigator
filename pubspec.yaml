@@ -1,6 +1,6 @@
 name: rail_navigator
 description: A customizable side navigation rail for Flutter apps, allowing developers to create dynamic and responsive navigation menus with configurable options for colors, icons, text, and more.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/TheNullSeeker/rail_navigator
 
 environment:
