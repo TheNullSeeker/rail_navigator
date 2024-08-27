@@ -193,14 +193,6 @@ class _AdvancedExampleState extends State<AdvancedExample> {
 - **`label`**: `String` - Text label for the rail item.
 - **`onTap`**: `VoidCallback?` - Function to execute when the rail item is tapped.
 
-## Testing
-
-Ensure that your widget behaves correctly by running the provided unit tests. Use the following command to run the tests:
-
-```bash
-flutter test
-```
-
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
