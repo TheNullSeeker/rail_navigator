@@ -2,7 +2,7 @@
 
 `rail_navigator` is a customizable Flutter package for implementing a side rail navigation menu. It offers flexible configuration options for colors, sizes, and behaviors, making it suitable for both beginner and intermediate developers looking to enhance their Flutter applications with a dynamic and visually appealing navigation rail.
 
-![Rail Navigator Screenshot](docs/screenshots/rail_navigator_example.png)
+![rail_navigator](https://github.com/TheSageAnomaly/rail_navigator/blob/main/assets/advanced%20collapsed.png)
 
 ## Features
 
@@ -77,6 +77,10 @@ class _BasicExampleState extends State<BasicExample> {
   }
 }
 ```
+
+![rail_navigator](https://github.com/TheNullSeeker/rail_navigator/blob/main/assets/basic%20collapsed.png)
+
+![rail_navigator](https://github.com/TheNullSeeker/rail_navigator/blob/main/assets/basic%20expanded.png)
 
 ### Advanced Example
 
@@ -156,6 +160,10 @@ class _AdvancedExampleState extends State<AdvancedExample> {
 }
 ```
 
+![rail_navigator](https://github.com/TheNullSeeker/rail_navigator/blob/main/assets/advanced%20collapsed.png)
+
+![rail_navigator](https://github.com/TheNullSeeker/rail_navigator/blob/main/assets/advanced%20expanded.png)
+
 ## Configuration Options
 
 ### `RailNavigation` Properties
@@ -185,13 +193,6 @@ class _AdvancedExampleState extends State<AdvancedExample> {
 - **`label`**: `String` - Text label for the rail item.
 - **`onTap`**: `VoidCallback?` - Function to execute when the rail item is tapped.
 
-## Screenshots
-
-Add screenshots to the `docs/screenshots` directory. You can reference these screenshots in the README to illustrate various states of the `RailNavigation` widget:
-
-- **Basic Example**: ![Basic Example](docs/screenshots/basic_example.png)
-- **Advanced Example**: ![Advanced Example](docs/screenshots/advanced_example.png)
-
 ## Testing
 
 Ensure that your widget behaves correctly by running the provided unit tests. Use the following command to run the tests:
@@ -203,11 +204,3 @@ flutter test
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-`rail_navigator` is licensed under the MIT License. See [LICENSE](LICENSE) for more details.
-
----
-
-This `README.md` file provides a thorough guide to using and configuring the `rail_navigator` package. It includes installation instructions, usage examples, configuration options, and a guide for contributing. You can enhance the documentation by adding relevant screenshots to visually demonstrate the package's capabilities.
