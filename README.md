@@ -2,7 +2,8 @@
 
 `rail_navigator` is a customizable Flutter package for implementing a side rail navigation menu. It offers flexible configuration options for colors, sizes, and behaviors, making it suitable for both beginner and intermediate developers looking to enhance their Flutter applications with a dynamic and visually appealing navigation rail.
 
-![rail_navigator](https://github.com/TheSageAnomaly/rail_navigator/blob/main/assets/advanced%20collapsed.png)
+![Rail navigator](https://github.com/user-attachments/assets/0caf81b8-5408-4cd1-ae78-f9164ef8c274)
+
 
 ## Features
 
@@ -65,6 +66,7 @@ class _BasicExampleState extends State<BasicExample> {
               railItems: [
                 RailItem(icon: Icons.dashboard, label: 'Dashboard'),
                 RailItem(icon: Icons.settings, label: 'Settings'),
+                RailItem(icon: Icons.info, label: 'About'),
               ],
             ),
             Expanded(
@@ -77,10 +79,10 @@ class _BasicExampleState extends State<BasicExample> {
   }
 }
 ```
+![rail navigator collapsed](https://github.com/user-attachments/assets/e1c8051d-42c1-4635-8aec-5d40b7d1b704)
 
-![rail_navigator](https://github.com/TheNullSeeker/rail_navigator/blob/main/assets/basic%20collapsed.png)
 
-![rail_navigator](https://github.com/TheNullSeeker/rail_navigator/blob/main/assets/basic%20expanded.png)
+![rail navigator expanded](https://github.com/user-attachments/assets/dca9db4a-83a6-4527-9ae1-a55e3cc7075f)
 
 ### Advanced Example
 
@@ -147,6 +149,13 @@ class _AdvancedExampleState extends State<AdvancedExample> {
                     print('Settings clicked');
                   },
                 ),
+                RailItem(
+                  icon: Icons.info,
+                  label: 'About',
+                  onTap: () {
+                    print('Settings clicked');
+                  },
+                ),
               ],
             ),
             Expanded(
@@ -159,10 +168,10 @@ class _AdvancedExampleState extends State<AdvancedExample> {
   }
 }
 ```
+![rail navigator collapsed](https://github.com/user-attachments/assets/b7f9f3f7-f9ff-4c29-94a3-cbaf427e5bd2)
 
-![rail_navigator](https://github.com/TheNullSeeker/rail_navigator/blob/main/assets/advanced%20collapsed.png)
+![rail navigator expanded](https://github.com/user-attachments/assets/ab30e94e-ca18-4b7f-ae45-d47882df50bb)
 
-![rail_navigator](https://github.com/TheNullSeeker/rail_navigator/blob/main/assets/advanced%20expanded.png)
 
 ## Configuration Options
 
